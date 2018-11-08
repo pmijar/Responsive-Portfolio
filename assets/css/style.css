@@ -16,11 +16,11 @@ body {
   }
  
 .container-1 {
-    margin-top: 5px;
+    margin-top: 1%;
     position: relative;
     height:40px;
     width:960px;
-    margin-left: 269px;
+    margin-left: 3%;
     font-weight:lighter;
     text-align: center;
     }
@@ -46,30 +46,30 @@ h1{
 
 .about{
     position: absolute;
-    margin-left: 82%;
+    margin-left: 80%;
     width:4%;
-    margin-top: 20px;
+    margin-top: 2%;
 }
 
 
 .portfolio{
     position: absolute;
-    margin-left: 87%;
+    margin-left: 85%;
     width: 4%;
-    margin-top: 20px;
+    margin-top: 2%;
 }
 
 .contact{
     position: absolute;
-    margin-left: 94%;
+    margin-left: 92%;
     width: 4%;
-    margin-top:20px;
+    margin-top:2%;
 }
 
 .description{
-    margin-left: 264px;
+    margin-left: 15%;
     margin-bottom: 0%;  
-    margin: 10px auto;
+    margin: 1% auto;
     width:960px;
     color: black;
     background-color: #ffffff;
