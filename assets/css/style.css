@@ -14,13 +14,20 @@ body {
     background: url("https://www.toptal.com/designers/subtlepatterns/patterns/gravel.png");
 
   }
+
+header{
+    background-color: #ffffff;
+    border-color: #cccccc; 
+    font-family:Georgia, 'Times New Roman', Times, serif; 
+}
  
 .container-1 {
-    margin-top: 1%;
     position: relative;
     height:40px;
     width:960px;
-    margin-left: 3%;
+    margin-left: 15%;
+  /*  margin-left: 10%;
+    margin-right: 10%; */
     font-weight:lighter;
     text-align: center;
     }
@@ -28,7 +35,7 @@ body {
 
 .name{
     float: left;
-    margin-left: 10px;
+    margin-left: 24%;
     font-weight: bolder;
     font-size: 30px;
     background-color: teal;
@@ -77,21 +84,14 @@ h1{
     overflow:auto;
 }
 
+.imgIndexPage {
+    float: left;
+    margin-right: 2%;
+}
+
 .wrapper{
     background: url("https://www.toptal.com/designers/subtlepatterns/patterns/gravel.png");
 
-}
-
-.inputClass{
-    font-size: 12pt;
-    height: 20px;
-    width:95%;
-    margin-left: 10px;
-}
-
-.imgIndexPage {
-    float: left;
-    margin-right: 10px;
 }
 
 .navhover a:hover {
@@ -172,4 +172,12 @@ hr {
   /*  margin: 3px auto; */
     color:white;
   
+}
+
+
+@media only screen and (max-width: 768px) {
+    .container-1 {
+        height:30px;
+        width: 90%;
+        }
 }
