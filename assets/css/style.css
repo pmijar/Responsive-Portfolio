@@ -165,34 +165,32 @@ hr {
 }
 
 
-@media screen and (max-width: 980px) {
+@media only screen and (max-width: 980px) {
     .container-1 {
         height:40px;
-        width:960px;
+        width: 85%;;
         margin-left: 15%;
         }
     .description{
         background-color: #ffffff;
         margin-left: 15%;
-    /*    margin-bottom: 0%;  */
         margin: 1% auto;
-        width:960px;
+        width:85%;
         }
 
 }
 
-@media screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
     .container-1 {
         height:30px;
-        width:720px;
-        margin-left: 0%;
+        width:95%;
+        margin-left: 5%;
         }
     .description{
         background-color: #ffffff;
-        margin-left: 0%;
-     /*   margin-bottom: 0%;  */
+        margin-left: 5%;
         margin: 1% auto;
-        width:720px;  
+        width:95%;  
         }   
     .about{
             position: absolute;
@@ -215,22 +213,22 @@ hr {
            
 }
 
-@media screen and (max-width: 640px) {
+@media only screen and (max-width: 640px) {
     .container-1 {
      /*   overflow: auto;*/
         background-color: #ffffff;  
         height:30px;
-        width:100%;
-        margin-left: 0%;
+        width:90%;
+        margin-left: 5%;
         position:fixed;
         top:0;
         }
     .description{
         background-color: #ffffff;
-        margin-left: 0%;
+        margin-left: 5%;
     /*    margin-bottom: 0%;  */
         margin: 1% auto;
-        width:625px;
+        width:90%;
         }   
         
 .about{
@@ -257,7 +255,7 @@ hr {
 @media only screen and (min-width: 981px){
     .container-1 {
         height:40px;
-        width:960px;
+        width:85%;
         margin-left: 15%;
         }
         
@@ -266,25 +264,25 @@ hr {
         margin-left: 15%;
     /*    margin-bottom: 0%;  */
         margin: 1% auto;
-        width:960px;
+        width:85%;
         }
     
     .about{
             position: absolute;
-            margin-left: 85%;
+            margin-left: 78%;
             margin-top: 2%;
         }
         
         
     .portfolio{
             position: absolute;
-            margin-left: 90%;
+            margin-left: 83%;
             margin-top: 2%;
         }
         
     .contact{
             position: absolute;
-            margin-left: 97%;
+            margin-left: 90%;
             margin-top:2%;
         }        
 
