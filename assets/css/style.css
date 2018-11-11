@@ -169,22 +169,50 @@ hr {
     .container-1 {
         height:40px;
         width: 85%;;
-        margin-left: 15%;
+        margin-left: 3%;
         }
     .description{
         background-color: #ffffff;
-        margin-left: 15%;
+        margin-left: 3%;
         margin: 1% auto;
         width:85%;
         }
 
+        .name{
+            float: left; 
+            margin-left:5%;
+            font-weight: bolder;
+            font-size: 30px;
+            background-color: teal;
+            color:white;
+            text-align: left;
+            padding: 0px;
+        }
+        .about{
+            position: absolute;
+            margin-left: 83%;
+            margin-top: 2%;
+        }
+        
+        
+        .portfolio{
+            position: absolute;
+            margin-left: 90%;
+            margin-top: 2%;
+        }
+        
+        .contact{
+            position: absolute;
+            margin-left: 98%;
+            margin-top:2%;
+        }
 }
 
 @media only screen and (max-width: 768px) {
     .container-1 {
         height:30px;
         width:95%;
-        margin-left: 5%;
+        margin-left: 3%;
         }
     .description{
         background-color: #ffffff;
@@ -192,6 +220,18 @@ hr {
         margin: 1% auto;
         width:95%;  
         }   
+
+    .name{
+            float: left; 
+            margin-left:0%;
+            font-weight: bolder;
+            font-size: 25px;
+            background-color: teal;
+            color:white;
+            text-align: left;
+            padding: 0px;
+        }
+
     .about{
             position: absolute;
             margin-left: 65%;
@@ -218,8 +258,8 @@ hr {
      /*   overflow: auto;*/
         background-color: #ffffff;  
         height:30px;
-        width:90%;
-        margin-left: 5%;
+        width:95%;
+        margin-left: 3%;
         position:fixed;
         top:0;
         }
@@ -230,7 +270,19 @@ hr {
         margin: 1% auto;
         width:90%;
         }   
+ 
+    .name{
+            float: left; 
+            margin-left:2%;
+            font-weight: bolder;
+            font-size: 20px;
+            background-color: teal;
+            color:white;
+            text-align: left;
+            padding: 0px;
+        }
         
+
 .about{
     position: absolute;
     margin-left: 65%;
@@ -256,7 +308,7 @@ hr {
     .container-1 {
         height:40px;
         width:85%;
-        margin-left: 15%;
+        margin-left: 5%;
         }
         
     .description{
@@ -266,23 +318,35 @@ hr {
         margin: 1% auto;
         width:85%;
         }
+
+    .name{
+            float: left; 
+            margin-left:3%;
+            font-weight: bolder;
+            font-size: 40px;
+            background-color: teal;
+            color:white;
+            text-align: left;
+            padding: 0px;
+        }
+
     
     .about{
             position: absolute;
-            margin-left: 78%;
+            margin-left: 73%;
             margin-top: 2%;
         }
         
         
     .portfolio{
             position: absolute;
-            margin-left: 83%;
+            margin-left: 78%;
             margin-top: 2%;
         }
         
     .contact{
             position: absolute;
-            margin-left: 90%;
+            margin-left: 85%;
             margin-top:2%;
         }        
 
